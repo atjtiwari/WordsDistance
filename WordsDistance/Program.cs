@@ -34,8 +34,6 @@ namespace WordsDistance
             text = text.Replace(Environment.NewLine, " ").Replace("  ", " ").Replace(",", "").Replace(".", " ").ToString();
             List<string> words = text.Split(' ').ToList();
             int len = words.Count();
-            List<int> Word1Pos = new List<int>();
-            List<int> Word2Pos = new List<int>();
             int i = 0;
             int j = 0;
             int lowestDistance = -1;
