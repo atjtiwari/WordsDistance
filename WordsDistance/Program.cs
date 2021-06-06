@@ -52,11 +52,11 @@ namespace WordsDistance
                         {
                             break;
                         }
-                    }
-                    if (lowestDistance == 1)
-                    {
-                        break;
-                    }
+                    }                    
+                }
+                if (lowestDistance == 1)
+                {
+                    break;
                 }
             }
 
